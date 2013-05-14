@@ -1,3 +1,7 @@
+# This really does seem easy, peasy...
+# https://github.com/inossidabile/wash_out
+#
+
 class SoapController < ActionController::Base
   include WashOut::SOAP
 

@@ -1,3 +1,8 @@
+# while the SOAP server is running...
+#
+# Usage: ruby client.rb
+#
+
 require 'bundler'
 Bundler.setup
 
