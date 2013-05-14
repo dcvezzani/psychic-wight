@@ -1,3 +1,9 @@
+# ===== Mon May 13 17:38:07 PDT 2013
+
+./bin/rails g controller soap
+
+# ===== ARCHIVE
+
 BUNDLE_GEMFILE=/Users/davidvezzani/rails-app/clean-start/Gemfile bundle exec rails new clf-004 -T
 git clone -b master clean-start clf-004
 
@@ -27,7 +33,6 @@ bundle exec rake db:migrate db:migrate:status
 
 
 
-# ===== ARCHIVE
 
 bundle exec rails g scaffold ListingSummary logo:string title:string body:text listing_id:integer
 bundle exec rails g scaffold Advertiser::ShoppingCartItem name:string price:decimal item_id:integer

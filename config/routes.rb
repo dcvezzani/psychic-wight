@@ -3,6 +3,8 @@ Clf004::Application.routes.draw do
   get "welcome/wizard", as: :wizard_welcome
   get "welcome/wizard_bar", as: :wizard_bar_welcome
 
+  wash_out :soap
+
   devise_for :users
 
   # The priority is based upon order of creation:
